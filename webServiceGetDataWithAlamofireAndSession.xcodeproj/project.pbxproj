@@ -1,0 +1,1112 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CD5EA021F875EBB005C0B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA011F875EBB005C0B33 /* AppDelegate.swift */; };
+		4CD5EA041F875EBB005C0B33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA031F875EBB005C0B33 /* ViewController.swift */; };
+		4CD5EA071F875EBB005C0B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA051F875EBB005C0B33 /* Main.storyboard */; };
+		4CD5EA091F875EBB005C0B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA081F875EBB005C0B33 /* Assets.xcassets */; };
+		4CD5EA0C1F875EBB005C0B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA0A1F875EBB005C0B33 /* LaunchScreen.storyboard */; };
+		4CD5EAEF1F87610D005C0B33 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA141F87610C005C0B33 /* .gitignore */; };
+		4CD5EAF01F87610D005C0B33 /* .jazzy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA151F87610C005C0B33 /* .jazzy.yaml */; };
+		4CD5EAF11F87610D005C0B33 /* .ruby-gemset in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA161F87610C005C0B33 /* .ruby-gemset */; };
+		4CD5EAF21F87610D005C0B33 /* .ruby-version in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA171F87610C005C0B33 /* .ruby-version */; };
+		4CD5EAF31F87610D005C0B33 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA181F87610C005C0B33 /* .swift-version */; };
+		4CD5EAF41F87610D005C0B33 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA191F87610C005C0B33 /* .travis.yml */; };
+		4CD5EAF51F87610D005C0B33 /* alamofire.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA1A1F87610C005C0B33 /* alamofire.png */; };
+		4CD5EAF61F87610D005C0B33 /* Alamofire.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA1B1F87610C005C0B33 /* Alamofire.podspec */; };
+		4CD5EAF71F87610D005C0B33 /* Alamofire.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA1F1F87610C005C0B33 /* Alamofire.xcworkspace */; };
+		4CD5EAF81F87610D005C0B33 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA201F87610C005C0B33 /* CHANGELOG.md */; };
+		4CD5EAF91F87610D005C0B33 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA211F87610C005C0B33 /* CONTRIBUTING.md */; };
+		4CD5EAFA1F87610D005C0B33 /* _config.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA231F87610C005C0B33 /* _config.yml */; };
+		4CD5EAFB1F87610D005C0B33 /* badge.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA241F87610C005C0B33 /* badge.svg */; };
+		4CD5EAFC1F87610D005C0B33 /* DataRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA261F87610D005C0B33 /* DataRequest.html */; };
+		4CD5EAFD1F87610D005C0B33 /* DownloadOptions.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA281F87610D005C0B33 /* DownloadOptions.html */; };
+		4CD5EAFE1F87610D005C0B33 /* DownloadRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA291F87610D005C0B33 /* DownloadRequest.html */; };
+		4CD5EAFF1F87610D005C0B33 /* MultipartFormData.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA2A1F87610D005C0B33 /* MultipartFormData.html */; };
+		4CD5EB001F87610D005C0B33 /* ConnectionType.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA2C1F87610D005C0B33 /* ConnectionType.html */; };
+		4CD5EB011F87610D005C0B33 /* NetworkReachabilityStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA2D1F87610D005C0B33 /* NetworkReachabilityStatus.html */; };
+		4CD5EB021F87610D005C0B33 /* NetworkReachabilityManager.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA2E1F87610D005C0B33 /* NetworkReachabilityManager.html */; };
+		4CD5EB031F87610D005C0B33 /* ValidationResult.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA301F87610D005C0B33 /* ValidationResult.html */; };
+		4CD5EB041F87610D005C0B33 /* Request.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA311F87610D005C0B33 /* Request.html */; };
+		4CD5EB051F87610D005C0B33 /* ServerTrustPolicyManager.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA321F87610D005C0B33 /* ServerTrustPolicyManager.html */; };
+		4CD5EB061F87610D005C0B33 /* SessionDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA331F87610D005C0B33 /* SessionDelegate.html */; };
+		4CD5EB071F87610D005C0B33 /* MultipartFormDataEncodingResult.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA351F87610D005C0B33 /* MultipartFormDataEncodingResult.html */; };
+		4CD5EB081F87610D005C0B33 /* SessionManager.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA361F87610D005C0B33 /* SessionManager.html */; };
+		4CD5EB091F87610D005C0B33 /* TaskDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA371F87610D005C0B33 /* TaskDelegate.html */; };
+		4CD5EB0A1F87610D005C0B33 /* UploadRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA381F87610D005C0B33 /* UploadRequest.html */; };
+		4CD5EB0B1F87610D005C0B33 /* Classes.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA391F87610D005C0B33 /* Classes.html */; };
+		4CD5EB0C1F87610D005C0B33 /* highlight.css in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA3B1F87610D005C0B33 /* highlight.css */; };
+		4CD5EB0D1F87610D005C0B33 /* jazzy.css in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA3C1F87610D005C0B33 /* jazzy.css */; };
+		4CD5EB0E1F87610D005C0B33 /* Alamofire.docset in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA3E1F87610D005C0B33 /* Alamofire.docset */; };
+		4CD5EB0F1F87610D005C0B33 /* Alamofire.tgz in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA3F1F87610D005C0B33 /* Alamofire.tgz */; };
+		4CD5EB101F87610D005C0B33 /* Alamofire.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA401F87610D005C0B33 /* Alamofire.xml */; };
+		4CD5EB111F87610D005C0B33 /* MultipartEncodingFailureReason.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA431F87610D005C0B33 /* MultipartEncodingFailureReason.html */; };
+		4CD5EB121F87610D005C0B33 /* ParameterEncodingFailureReason.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA441F87610D005C0B33 /* ParameterEncodingFailureReason.html */; };
+		4CD5EB131F87610D005C0B33 /* ResponseSerializationFailureReason.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA451F87610D005C0B33 /* ResponseSerializationFailureReason.html */; };
+		4CD5EB141F87610D005C0B33 /* ResponseValidationFailureReason.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA461F87610D005C0B33 /* ResponseValidationFailureReason.html */; };
+		4CD5EB151F87610D005C0B33 /* AFError.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA471F87610D005C0B33 /* AFError.html */; };
+		4CD5EB161F87610D005C0B33 /* HTTPMethod.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA481F87610D005C0B33 /* HTTPMethod.html */; };
+		4CD5EB171F87610D005C0B33 /* Result.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA491F87610D005C0B33 /* Result.html */; };
+		4CD5EB181F87610D005C0B33 /* ServerTrustPolicy.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA4A1F87610D005C0B33 /* ServerTrustPolicy.html */; };
+		4CD5EB191F87610D005C0B33 /* Enums.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA4B1F87610D005C0B33 /* Enums.html */; };
+		4CD5EB1A1F87610D005C0B33 /* Key.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA4E1F87610D005C0B33 /* Key.html */; };
+		4CD5EB1B1F87610D005C0B33 /* Task.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA501F87610D005C0B33 /* Task.html */; };
+		4CD5EB1C1F87610D005C0B33 /* Name.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA511F87610D005C0B33 /* Name.html */; };
+		4CD5EB1D1F87610D005C0B33 /* Notification.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA521F87610D005C0B33 /* Notification.html */; };
+		4CD5EB1E1F87610D005C0B33 /* String.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA531F87610D005C0B33 /* String.html */; };
+		4CD5EB1F1F87610D005C0B33 /* URL.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA541F87610D005C0B33 /* URL.html */; };
+		4CD5EB201F87610D005C0B33 /* URLComponents.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA551F87610D005C0B33 /* URLComponents.html */; };
+		4CD5EB211F87610D005C0B33 /* URLRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA561F87610D005C0B33 /* URLRequest.html */; };
+		4CD5EB221F87610D005C0B33 /* Extensions.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA571F87610D005C0B33 /* Extensions.html */; };
+		4CD5EB231F87610D005C0B33 /* Functions.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA581F87610D005C0B33 /* Functions.html */; };
+		4CD5EB241F87610D005C0B33 /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA5A1F87610D005C0B33 /* carat.png */; };
+		4CD5EB251F87610D005C0B33 /* dash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA5B1F87610D005C0B33 /* dash.png */; };
+		4CD5EB261F87610D005C0B33 /* gh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA5C1F87610D005C0B33 /* gh.png */; };
+		4CD5EB271F87610D005C0B33 /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA5D1F87610D005C0B33 /* spinner.gif */; };
+		4CD5EB281F87610D005C0B33 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA5E1F87610D005C0B33 /* index.html */; };
+		4CD5EB291F87610D005C0B33 /* jazzy.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA601F87610D005C0B33 /* jazzy.js */; };
+		4CD5EB2A1F87610D005C0B33 /* jazzy.search.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA611F87610D005C0B33 /* jazzy.search.js */; };
+		4CD5EB2B1F87610D005C0B33 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA621F87610D005C0B33 /* jquery.min.js */; };
+		4CD5EB2C1F87610D005C0B33 /* lunr.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA631F87610D005C0B33 /* lunr.min.js */; };
+		4CD5EB2D1F87610D005C0B33 /* typeahead.jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA641F87610D005C0B33 /* typeahead.jquery.js */; };
+		4CD5EB2E1F87610D005C0B33 /* DataResponseSerializerProtocol.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA661F87610D005C0B33 /* DataResponseSerializerProtocol.html */; };
+		4CD5EB2F1F87610D005C0B33 /* DownloadResponseSerializerProtocol.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA671F87610D005C0B33 /* DownloadResponseSerializerProtocol.html */; };
+		4CD5EB301F87610D005C0B33 /* ParameterEncoding.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA681F87610D005C0B33 /* ParameterEncoding.html */; };
+		4CD5EB311F87610D005C0B33 /* RequestAdapter.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA691F87610D005C0B33 /* RequestAdapter.html */; };
+		4CD5EB321F87610D005C0B33 /* RequestRetrier.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA6A1F87610D005C0B33 /* RequestRetrier.html */; };
+		4CD5EB331F87610D005C0B33 /* URLConvertible.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA6B1F87610D005C0B33 /* URLConvertible.html */; };
+		4CD5EB341F87610D005C0B33 /* URLRequestConvertible.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA6C1F87610D005C0B33 /* URLRequestConvertible.html */; };
+		4CD5EB351F87610D005C0B33 /* Protocols.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA6D1F87610D005C0B33 /* Protocols.html */; };
+		4CD5EB361F87610D005C0B33 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA6E1F87610D005C0B33 /* search.json */; };
+		4CD5EB371F87610D005C0B33 /* DataResponse.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA701F87610D005C0B33 /* DataResponse.html */; };
+		4CD5EB381F87610D005C0B33 /* DataResponseSerializer.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA711F87610D005C0B33 /* DataResponseSerializer.html */; };
+		4CD5EB391F87610D005C0B33 /* DefaultDataResponse.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA721F87610D005C0B33 /* DefaultDataResponse.html */; };
+		4CD5EB3A1F87610D005C0B33 /* DefaultDownloadResponse.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA731F87610D005C0B33 /* DefaultDownloadResponse.html */; };
+		4CD5EB3B1F87610D005C0B33 /* DownloadResponse.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA741F87610D005C0B33 /* DownloadResponse.html */; };
+		4CD5EB3C1F87610D005C0B33 /* DownloadResponseSerializer.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA751F87610D005C0B33 /* DownloadResponseSerializer.html */; };
+		4CD5EB3D1F87610D005C0B33 /* JSONEncoding.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA761F87610D005C0B33 /* JSONEncoding.html */; };
+		4CD5EB3E1F87610D005C0B33 /* PropertyListEncoding.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA771F87610D005C0B33 /* PropertyListEncoding.html */; };
+		4CD5EB3F1F87610D005C0B33 /* Timeline.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA781F87610D005C0B33 /* Timeline.html */; };
+		4CD5EB401F87610D005C0B33 /* Destination.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA7A1F87610D005C0B33 /* Destination.html */; };
+		4CD5EB411F87610D005C0B33 /* URLEncoding.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA7B1F87610D005C0B33 /* URLEncoding.html */; };
+		4CD5EB421F87610D005C0B33 /* Structs.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA7C1F87610D005C0B33 /* Structs.html */; };
+		4CD5EB431F87610D005C0B33 /* Typealiases.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA7D1F87610D005C0B33 /* Typealiases.html */; };
+		4CD5EB441F87610D005C0B33 /* undocumented.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA7E1F87610D005C0B33 /* undocumented.json */; };
+		4CD5EB451F87610D005C0B33 /* Alamofire 2.0 Migration Guide.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA801F87610D005C0B33 /* Alamofire 2.0 Migration Guide.md */; };
+		4CD5EB461F87610D005C0B33 /* Alamofire 3.0 Migration Guide.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA811F87610D005C0B33 /* Alamofire 3.0 Migration Guide.md */; };
+		4CD5EB471F87610D005C0B33 /* Alamofire 4.0 Migration Guide.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA821F87610D005C0B33 /* Alamofire 4.0 Migration Guide.md */; };
+		4CD5EB4E1F87610D005C0B33 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA911F87610D005C0B33 /* Gemfile */; };
+		4CD5EB4F1F87610D005C0B33 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA921F87610D005C0B33 /* Gemfile.lock */; };
+		4CD5EB501F87610D005C0B33 /* ISSUE_TEMPLATE.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA931F87610D005C0B33 /* ISSUE_TEMPLATE.md */; };
+		4CD5EB511F87610D005C0B33 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA941F87610D005C0B33 /* LICENSE */; };
+		4CD5EB531F87610D005C0B33 /* PULL_REQUEST_TEMPLATE.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA961F87610D005C0B33 /* PULL_REQUEST_TEMPLATE.md */; };
+		4CD5EB541F87610D005C0B33 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA971F87610D005C0B33 /* README.md */; };
+		4CD5EB551F87610D005C0B33 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA991F87610D005C0B33 /* AFError.swift */; };
+		4CD5EB561F87610D005C0B33 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA9B1F87610D005C0B33 /* Alamofire.swift */; };
+		4CD5EB571F87610D005C0B33 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA9C1F87610D005C0B33 /* DispatchQueue+Alamofire.swift */; };
+		4CD5EB581F87610D005C0B33 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA9D1F87610D005C0B33 /* Info-tvOS.plist */; };
+		4CD5EB591F87610D005C0B33 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5EA9E1F87610D005C0B33 /* Info.plist */; };
+		4CD5EB5A1F87610D005C0B33 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EA9F1F87610D005C0B33 /* MultipartFormData.swift */; };
+		4CD5EB5B1F87610D005C0B33 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA01F87610D005C0B33 /* NetworkReachabilityManager.swift */; };
+		4CD5EB5C1F87610D005C0B33 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA11F87610D005C0B33 /* Notifications.swift */; };
+		4CD5EB5D1F87610D005C0B33 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA21F87610D005C0B33 /* ParameterEncoding.swift */; };
+		4CD5EB5E1F87610D005C0B33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA31F87610D005C0B33 /* Request.swift */; };
+		4CD5EB5F1F87610D005C0B33 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA41F87610D005C0B33 /* Response.swift */; };
+		4CD5EB601F87610D005C0B33 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA51F87610D005C0B33 /* ResponseSerialization.swift */; };
+		4CD5EB611F87610D005C0B33 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA61F87610D005C0B33 /* Result.swift */; };
+		4CD5EB621F87610D005C0B33 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA71F87610D005C0B33 /* ServerTrustPolicy.swift */; };
+		4CD5EB631F87610D005C0B33 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA81F87610D005C0B33 /* SessionDelegate.swift */; };
+		4CD5EB641F87610D005C0B33 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAA91F87610D005C0B33 /* SessionManager.swift */; };
+		4CD5EB651F87610D005C0B33 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAAA1F87610D005C0B33 /* TaskDelegate.swift */; };
+		4CD5EB661F87610D005C0B33 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAAB1F87610D005C0B33 /* Timeline.swift */; };
+		4CD5EB671F87610D005C0B33 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EAAC1F87610D005C0B33 /* Validation.swift */; };
+		4CD5EBBB1F87613C005C0B33 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD5EBA81F87610D005C0B33 /* Alamofire.framework */; };
+		4CD5EBBC1F87613C005C0B33 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD5EBA81F87610D005C0B33 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4CD5EBC11F8761BF005C0B33 /* Mycell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EBC01F8761BF005C0B33 /* Mycell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CD5EBA71F87610D005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		4CD5EBA91F87610D005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		4CD5EBAB1F87610D005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		4CD5EBAD1F87610D005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		4CD5EBAF1F87610D005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		4CD5EBB11F87610D005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		4CD5EBB31F87610D005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		4CD5EBB81F87612A005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		4CD5EBBD1F87613C005C0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CD5EBBF1F87613C005C0B33 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4CD5EBBC1F87613C005C0B33 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CD5E9FE1F875EBB005C0B33 /* webServiceGetDataWithAlamofireAndSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webServiceGetDataWithAlamofireAndSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD5EA011F875EBB005C0B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CD5EA031F875EBB005C0B33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CD5EA061F875EBB005C0B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CD5EA081F875EBB005C0B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CD5EA0B1F875EBB005C0B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CD5EA0D1F875EBB005C0B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD5EA141F87610C005C0B33 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4CD5EA151F87610C005C0B33 /* .jazzy.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .jazzy.yaml; sourceTree = "<group>"; };
+		4CD5EA161F87610C005C0B33 /* .ruby-gemset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".ruby-gemset"; sourceTree = "<group>"; };
+		4CD5EA171F87610C005C0B33 /* .ruby-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".ruby-version"; sourceTree = "<group>"; };
+		4CD5EA181F87610C005C0B33 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		4CD5EA191F87610C005C0B33 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		4CD5EA1A1F87610C005C0B33 /* alamofire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alamofire.png; sourceTree = "<group>"; };
+		4CD5EA1B1F87610C005C0B33 /* Alamofire.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alamofire.podspec; sourceTree = "<group>"; };
+		4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
+		4CD5EA1F1F87610C005C0B33 /* Alamofire.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Alamofire.xcworkspace; sourceTree = "<group>"; };
+		4CD5EA201F87610C005C0B33 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		4CD5EA211F87610C005C0B33 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		4CD5EA231F87610C005C0B33 /* _config.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
+		4CD5EA241F87610C005C0B33 /* badge.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badge.svg; sourceTree = "<group>"; };
+		4CD5EA261F87610D005C0B33 /* DataRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DataRequest.html; sourceTree = "<group>"; };
+		4CD5EA281F87610D005C0B33 /* DownloadOptions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DownloadOptions.html; sourceTree = "<group>"; };
+		4CD5EA291F87610D005C0B33 /* DownloadRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DownloadRequest.html; sourceTree = "<group>"; };
+		4CD5EA2A1F87610D005C0B33 /* MultipartFormData.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MultipartFormData.html; sourceTree = "<group>"; };
+		4CD5EA2C1F87610D005C0B33 /* ConnectionType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ConnectionType.html; sourceTree = "<group>"; };
+		4CD5EA2D1F87610D005C0B33 /* NetworkReachabilityStatus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NetworkReachabilityStatus.html; sourceTree = "<group>"; };
+		4CD5EA2E1F87610D005C0B33 /* NetworkReachabilityManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NetworkReachabilityManager.html; sourceTree = "<group>"; };
+		4CD5EA301F87610D005C0B33 /* ValidationResult.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ValidationResult.html; sourceTree = "<group>"; };
+		4CD5EA311F87610D005C0B33 /* Request.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Request.html; sourceTree = "<group>"; };
+		4CD5EA321F87610D005C0B33 /* ServerTrustPolicyManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ServerTrustPolicyManager.html; sourceTree = "<group>"; };
+		4CD5EA331F87610D005C0B33 /* SessionDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SessionDelegate.html; sourceTree = "<group>"; };
+		4CD5EA351F87610D005C0B33 /* MultipartFormDataEncodingResult.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MultipartFormDataEncodingResult.html; sourceTree = "<group>"; };
+		4CD5EA361F87610D005C0B33 /* SessionManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SessionManager.html; sourceTree = "<group>"; };
+		4CD5EA371F87610D005C0B33 /* TaskDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TaskDelegate.html; sourceTree = "<group>"; };
+		4CD5EA381F87610D005C0B33 /* UploadRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UploadRequest.html; sourceTree = "<group>"; };
+		4CD5EA391F87610D005C0B33 /* Classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
+		4CD5EA3B1F87610D005C0B33 /* highlight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
+		4CD5EA3C1F87610D005C0B33 /* jazzy.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
+		4CD5EA3E1F87610D005C0B33 /* Alamofire.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Alamofire.docset; sourceTree = "<group>"; };
+		4CD5EA3F1F87610D005C0B33 /* Alamofire.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alamofire.tgz; sourceTree = "<group>"; };
+		4CD5EA401F87610D005C0B33 /* Alamofire.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Alamofire.xml; sourceTree = "<group>"; };
+		4CD5EA431F87610D005C0B33 /* MultipartEncodingFailureReason.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MultipartEncodingFailureReason.html; sourceTree = "<group>"; };
+		4CD5EA441F87610D005C0B33 /* ParameterEncodingFailureReason.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ParameterEncodingFailureReason.html; sourceTree = "<group>"; };
+		4CD5EA451F87610D005C0B33 /* ResponseSerializationFailureReason.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ResponseSerializationFailureReason.html; sourceTree = "<group>"; };
+		4CD5EA461F87610D005C0B33 /* ResponseValidationFailureReason.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ResponseValidationFailureReason.html; sourceTree = "<group>"; };
+		4CD5EA471F87610D005C0B33 /* AFError.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AFError.html; sourceTree = "<group>"; };
+		4CD5EA481F87610D005C0B33 /* HTTPMethod.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = HTTPMethod.html; sourceTree = "<group>"; };
+		4CD5EA491F87610D005C0B33 /* Result.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Result.html; sourceTree = "<group>"; };
+		4CD5EA4A1F87610D005C0B33 /* ServerTrustPolicy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ServerTrustPolicy.html; sourceTree = "<group>"; };
+		4CD5EA4B1F87610D005C0B33 /* Enums.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Enums.html; sourceTree = "<group>"; };
+		4CD5EA4E1F87610D005C0B33 /* Key.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Key.html; sourceTree = "<group>"; };
+		4CD5EA501F87610D005C0B33 /* Task.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Task.html; sourceTree = "<group>"; };
+		4CD5EA511F87610D005C0B33 /* Name.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Name.html; sourceTree = "<group>"; };
+		4CD5EA521F87610D005C0B33 /* Notification.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Notification.html; sourceTree = "<group>"; };
+		4CD5EA531F87610D005C0B33 /* String.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = String.html; sourceTree = "<group>"; };
+		4CD5EA541F87610D005C0B33 /* URL.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = URL.html; sourceTree = "<group>"; };
+		4CD5EA551F87610D005C0B33 /* URLComponents.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = URLComponents.html; sourceTree = "<group>"; };
+		4CD5EA561F87610D005C0B33 /* URLRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = URLRequest.html; sourceTree = "<group>"; };
+		4CD5EA571F87610D005C0B33 /* Extensions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Extensions.html; sourceTree = "<group>"; };
+		4CD5EA581F87610D005C0B33 /* Functions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Functions.html; sourceTree = "<group>"; };
+		4CD5EA5A1F87610D005C0B33 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		4CD5EA5B1F87610D005C0B33 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		4CD5EA5C1F87610D005C0B33 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
+		4CD5EA5D1F87610D005C0B33 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
+		4CD5EA5E1F87610D005C0B33 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4CD5EA601F87610D005C0B33 /* jazzy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.js; sourceTree = "<group>"; };
+		4CD5EA611F87610D005C0B33 /* jazzy.search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.search.js; sourceTree = "<group>"; };
+		4CD5EA621F87610D005C0B33 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		4CD5EA631F87610D005C0B33 /* lunr.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lunr.min.js; sourceTree = "<group>"; };
+		4CD5EA641F87610D005C0B33 /* typeahead.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typeahead.jquery.js; sourceTree = "<group>"; };
+		4CD5EA661F87610D005C0B33 /* DataResponseSerializerProtocol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DataResponseSerializerProtocol.html; sourceTree = "<group>"; };
+		4CD5EA671F87610D005C0B33 /* DownloadResponseSerializerProtocol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DownloadResponseSerializerProtocol.html; sourceTree = "<group>"; };
+		4CD5EA681F87610D005C0B33 /* ParameterEncoding.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ParameterEncoding.html; sourceTree = "<group>"; };
+		4CD5EA691F87610D005C0B33 /* RequestAdapter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RequestAdapter.html; sourceTree = "<group>"; };
+		4CD5EA6A1F87610D005C0B33 /* RequestRetrier.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RequestRetrier.html; sourceTree = "<group>"; };
+		4CD5EA6B1F87610D005C0B33 /* URLConvertible.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = URLConvertible.html; sourceTree = "<group>"; };
+		4CD5EA6C1F87610D005C0B33 /* URLRequestConvertible.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = URLRequestConvertible.html; sourceTree = "<group>"; };
+		4CD5EA6D1F87610D005C0B33 /* Protocols.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Protocols.html; sourceTree = "<group>"; };
+		4CD5EA6E1F87610D005C0B33 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		4CD5EA701F87610D005C0B33 /* DataResponse.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DataResponse.html; sourceTree = "<group>"; };
+		4CD5EA711F87610D005C0B33 /* DataResponseSerializer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DataResponseSerializer.html; sourceTree = "<group>"; };
+		4CD5EA721F87610D005C0B33 /* DefaultDataResponse.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DefaultDataResponse.html; sourceTree = "<group>"; };
+		4CD5EA731F87610D005C0B33 /* DefaultDownloadResponse.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DefaultDownloadResponse.html; sourceTree = "<group>"; };
+		4CD5EA741F87610D005C0B33 /* DownloadResponse.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DownloadResponse.html; sourceTree = "<group>"; };
+		4CD5EA751F87610D005C0B33 /* DownloadResponseSerializer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DownloadResponseSerializer.html; sourceTree = "<group>"; };
+		4CD5EA761F87610D005C0B33 /* JSONEncoding.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSONEncoding.html; sourceTree = "<group>"; };
+		4CD5EA771F87610D005C0B33 /* PropertyListEncoding.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PropertyListEncoding.html; sourceTree = "<group>"; };
+		4CD5EA781F87610D005C0B33 /* Timeline.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Timeline.html; sourceTree = "<group>"; };
+		4CD5EA7A1F87610D005C0B33 /* Destination.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Destination.html; sourceTree = "<group>"; };
+		4CD5EA7B1F87610D005C0B33 /* URLEncoding.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = URLEncoding.html; sourceTree = "<group>"; };
+		4CD5EA7C1F87610D005C0B33 /* Structs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Structs.html; sourceTree = "<group>"; };
+		4CD5EA7D1F87610D005C0B33 /* Typealiases.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Typealiases.html; sourceTree = "<group>"; };
+		4CD5EA7E1F87610D005C0B33 /* undocumented.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = undocumented.json; sourceTree = "<group>"; };
+		4CD5EA801F87610D005C0B33 /* Alamofire 2.0 Migration Guide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Alamofire 2.0 Migration Guide.md"; sourceTree = "<group>"; };
+		4CD5EA811F87610D005C0B33 /* Alamofire 3.0 Migration Guide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Alamofire 3.0 Migration Guide.md"; sourceTree = "<group>"; };
+		4CD5EA821F87610D005C0B33 /* Alamofire 4.0 Migration Guide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Alamofire 4.0 Migration Guide.md"; sourceTree = "<group>"; };
+		4CD5EA911F87610D005C0B33 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		4CD5EA921F87610D005C0B33 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		4CD5EA931F87610D005C0B33 /* ISSUE_TEMPLATE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ISSUE_TEMPLATE.md; sourceTree = "<group>"; };
+		4CD5EA941F87610D005C0B33 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4CD5EA961F87610D005C0B33 /* PULL_REQUEST_TEMPLATE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = PULL_REQUEST_TEMPLATE.md; sourceTree = "<group>"; };
+		4CD5EA971F87610D005C0B33 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4CD5EA991F87610D005C0B33 /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		4CD5EA9A1F87610D005C0B33 /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		4CD5EA9B1F87610D005C0B33 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		4CD5EA9C1F87610D005C0B33 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		4CD5EA9D1F87610D005C0B33 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		4CD5EA9E1F87610D005C0B33 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD5EA9F1F87610D005C0B33 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		4CD5EAA01F87610D005C0B33 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		4CD5EAA11F87610D005C0B33 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		4CD5EAA21F87610D005C0B33 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		4CD5EAA31F87610D005C0B33 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		4CD5EAA41F87610D005C0B33 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		4CD5EAA51F87610D005C0B33 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		4CD5EAA61F87610D005C0B33 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4CD5EAA71F87610D005C0B33 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		4CD5EAA81F87610D005C0B33 /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		4CD5EAA91F87610D005C0B33 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		4CD5EAAA1F87610D005C0B33 /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		4CD5EAAB1F87610D005C0B33 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		4CD5EAAC1F87610D005C0B33 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		4CD5EBC01F8761BF005C0B33 /* Mycell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mycell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CD5E9FB1F875EBB005C0B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD5EBBB1F87613C005C0B33 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CD5E9F51F875EBB005C0B33 = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA001F875EBB005C0B33 /* webServiceGetDataWithAlamofireAndSession */,
+				4CD5E9FF1F875EBB005C0B33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CD5E9FF1F875EBB005C0B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5E9FE1F875EBB005C0B33 /* webServiceGetDataWithAlamofireAndSession.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CD5EA001F875EBB005C0B33 /* webServiceGetDataWithAlamofireAndSession */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA011F875EBB005C0B33 /* AppDelegate.swift */,
+				4CD5EA131F87610C005C0B33 /* Alamofire-master1 */,
+				4CD5EA051F875EBB005C0B33 /* Main.storyboard */,
+				4CD5EA031F875EBB005C0B33 /* ViewController.swift */,
+				4CD5EBC01F8761BF005C0B33 /* Mycell.swift */,
+				4CD5EA081F875EBB005C0B33 /* Assets.xcassets */,
+				4CD5EA0A1F875EBB005C0B33 /* LaunchScreen.storyboard */,
+				4CD5EA0D1F875EBB005C0B33 /* Info.plist */,
+			);
+			path = webServiceGetDataWithAlamofireAndSession;
+			sourceTree = "<group>";
+		};
+		4CD5EA131F87610C005C0B33 /* Alamofire-master1 */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA141F87610C005C0B33 /* .gitignore */,
+				4CD5EA151F87610C005C0B33 /* .jazzy.yaml */,
+				4CD5EA161F87610C005C0B33 /* .ruby-gemset */,
+				4CD5EA171F87610C005C0B33 /* .ruby-version */,
+				4CD5EA181F87610C005C0B33 /* .swift-version */,
+				4CD5EA191F87610C005C0B33 /* .travis.yml */,
+				4CD5EA1A1F87610C005C0B33 /* alamofire.png */,
+				4CD5EA1B1F87610C005C0B33 /* Alamofire.podspec */,
+				4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */,
+				4CD5EA1F1F87610C005C0B33 /* Alamofire.xcworkspace */,
+				4CD5EA201F87610C005C0B33 /* CHANGELOG.md */,
+				4CD5EA211F87610C005C0B33 /* CONTRIBUTING.md */,
+				4CD5EA221F87610C005C0B33 /* docs */,
+				4CD5EA7F1F87610D005C0B33 /* Documentation */,
+				4CD5EA911F87610D005C0B33 /* Gemfile */,
+				4CD5EA921F87610D005C0B33 /* Gemfile.lock */,
+				4CD5EA931F87610D005C0B33 /* ISSUE_TEMPLATE.md */,
+				4CD5EA941F87610D005C0B33 /* LICENSE */,
+				4CD5EA961F87610D005C0B33 /* PULL_REQUEST_TEMPLATE.md */,
+				4CD5EA971F87610D005C0B33 /* README.md */,
+				4CD5EA981F87610D005C0B33 /* Source */,
+			);
+			path = "Alamofire-master1";
+			sourceTree = "<group>";
+		};
+		4CD5EA1D1F87610C005C0B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EBA81F87610D005C0B33 /* Alamofire.framework */,
+				4CD5EBAA1F87610D005C0B33 /* Alamofire iOS Tests.xctest */,
+				4CD5EBAC1F87610D005C0B33 /* Alamofire.framework */,
+				4CD5EBAE1F87610D005C0B33 /* Alamofire macOS Tests.xctest */,
+				4CD5EBB01F87610D005C0B33 /* Alamofire.framework */,
+				4CD5EBB21F87610D005C0B33 /* Alamofire tvOS Tests.xctest */,
+				4CD5EBB41F87610D005C0B33 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CD5EA221F87610C005C0B33 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA231F87610C005C0B33 /* _config.yml */,
+				4CD5EA241F87610C005C0B33 /* badge.svg */,
+				4CD5EA251F87610D005C0B33 /* Classes */,
+				4CD5EA391F87610D005C0B33 /* Classes.html */,
+				4CD5EA3A1F87610D005C0B33 /* css */,
+				4CD5EA3D1F87610D005C0B33 /* docsets */,
+				4CD5EA411F87610D005C0B33 /* Enums */,
+				4CD5EA4B1F87610D005C0B33 /* Enums.html */,
+				4CD5EA4C1F87610D005C0B33 /* Extensions */,
+				4CD5EA571F87610D005C0B33 /* Extensions.html */,
+				4CD5EA581F87610D005C0B33 /* Functions.html */,
+				4CD5EA591F87610D005C0B33 /* img */,
+				4CD5EA5E1F87610D005C0B33 /* index.html */,
+				4CD5EA5F1F87610D005C0B33 /* js */,
+				4CD5EA651F87610D005C0B33 /* Protocols */,
+				4CD5EA6D1F87610D005C0B33 /* Protocols.html */,
+				4CD5EA6E1F87610D005C0B33 /* search.json */,
+				4CD5EA6F1F87610D005C0B33 /* Structs */,
+				4CD5EA7C1F87610D005C0B33 /* Structs.html */,
+				4CD5EA7D1F87610D005C0B33 /* Typealiases.html */,
+				4CD5EA7E1F87610D005C0B33 /* undocumented.json */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		4CD5EA251F87610D005C0B33 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA261F87610D005C0B33 /* DataRequest.html */,
+				4CD5EA271F87610D005C0B33 /* DownloadRequest */,
+				4CD5EA291F87610D005C0B33 /* DownloadRequest.html */,
+				4CD5EA2A1F87610D005C0B33 /* MultipartFormData.html */,
+				4CD5EA2B1F87610D005C0B33 /* NetworkReachabilityManager */,
+				4CD5EA2E1F87610D005C0B33 /* NetworkReachabilityManager.html */,
+				4CD5EA2F1F87610D005C0B33 /* Request */,
+				4CD5EA311F87610D005C0B33 /* Request.html */,
+				4CD5EA321F87610D005C0B33 /* ServerTrustPolicyManager.html */,
+				4CD5EA331F87610D005C0B33 /* SessionDelegate.html */,
+				4CD5EA341F87610D005C0B33 /* SessionManager */,
+				4CD5EA361F87610D005C0B33 /* SessionManager.html */,
+				4CD5EA371F87610D005C0B33 /* TaskDelegate.html */,
+				4CD5EA381F87610D005C0B33 /* UploadRequest.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4CD5EA271F87610D005C0B33 /* DownloadRequest */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA281F87610D005C0B33 /* DownloadOptions.html */,
+			);
+			path = DownloadRequest;
+			sourceTree = "<group>";
+		};
+		4CD5EA2B1F87610D005C0B33 /* NetworkReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA2C1F87610D005C0B33 /* ConnectionType.html */,
+				4CD5EA2D1F87610D005C0B33 /* NetworkReachabilityStatus.html */,
+			);
+			path = NetworkReachabilityManager;
+			sourceTree = "<group>";
+		};
+		4CD5EA2F1F87610D005C0B33 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA301F87610D005C0B33 /* ValidationResult.html */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4CD5EA341F87610D005C0B33 /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA351F87610D005C0B33 /* MultipartFormDataEncodingResult.html */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		4CD5EA3A1F87610D005C0B33 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA3B1F87610D005C0B33 /* highlight.css */,
+				4CD5EA3C1F87610D005C0B33 /* jazzy.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		4CD5EA3D1F87610D005C0B33 /* docsets */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA3E1F87610D005C0B33 /* Alamofire.docset */,
+				4CD5EA3F1F87610D005C0B33 /* Alamofire.tgz */,
+				4CD5EA401F87610D005C0B33 /* Alamofire.xml */,
+			);
+			path = docsets;
+			sourceTree = "<group>";
+		};
+		4CD5EA411F87610D005C0B33 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA421F87610D005C0B33 /* AFError */,
+				4CD5EA471F87610D005C0B33 /* AFError.html */,
+				4CD5EA481F87610D005C0B33 /* HTTPMethod.html */,
+				4CD5EA491F87610D005C0B33 /* Result.html */,
+				4CD5EA4A1F87610D005C0B33 /* ServerTrustPolicy.html */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		4CD5EA421F87610D005C0B33 /* AFError */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA431F87610D005C0B33 /* MultipartEncodingFailureReason.html */,
+				4CD5EA441F87610D005C0B33 /* ParameterEncodingFailureReason.html */,
+				4CD5EA451F87610D005C0B33 /* ResponseSerializationFailureReason.html */,
+				4CD5EA461F87610D005C0B33 /* ResponseValidationFailureReason.html */,
+			);
+			path = AFError;
+			sourceTree = "<group>";
+		};
+		4CD5EA4C1F87610D005C0B33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA4D1F87610D005C0B33 /* Notification */,
+				4CD5EA521F87610D005C0B33 /* Notification.html */,
+				4CD5EA531F87610D005C0B33 /* String.html */,
+				4CD5EA541F87610D005C0B33 /* URL.html */,
+				4CD5EA551F87610D005C0B33 /* URLComponents.html */,
+				4CD5EA561F87610D005C0B33 /* URLRequest.html */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4CD5EA4D1F87610D005C0B33 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA4E1F87610D005C0B33 /* Key.html */,
+				4CD5EA4F1F87610D005C0B33 /* Name */,
+				4CD5EA511F87610D005C0B33 /* Name.html */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		4CD5EA4F1F87610D005C0B33 /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA501F87610D005C0B33 /* Task.html */,
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
+		4CD5EA591F87610D005C0B33 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA5A1F87610D005C0B33 /* carat.png */,
+				4CD5EA5B1F87610D005C0B33 /* dash.png */,
+				4CD5EA5C1F87610D005C0B33 /* gh.png */,
+				4CD5EA5D1F87610D005C0B33 /* spinner.gif */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		4CD5EA5F1F87610D005C0B33 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA601F87610D005C0B33 /* jazzy.js */,
+				4CD5EA611F87610D005C0B33 /* jazzy.search.js */,
+				4CD5EA621F87610D005C0B33 /* jquery.min.js */,
+				4CD5EA631F87610D005C0B33 /* lunr.min.js */,
+				4CD5EA641F87610D005C0B33 /* typeahead.jquery.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		4CD5EA651F87610D005C0B33 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA661F87610D005C0B33 /* DataResponseSerializerProtocol.html */,
+				4CD5EA671F87610D005C0B33 /* DownloadResponseSerializerProtocol.html */,
+				4CD5EA681F87610D005C0B33 /* ParameterEncoding.html */,
+				4CD5EA691F87610D005C0B33 /* RequestAdapter.html */,
+				4CD5EA6A1F87610D005C0B33 /* RequestRetrier.html */,
+				4CD5EA6B1F87610D005C0B33 /* URLConvertible.html */,
+				4CD5EA6C1F87610D005C0B33 /* URLRequestConvertible.html */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4CD5EA6F1F87610D005C0B33 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA701F87610D005C0B33 /* DataResponse.html */,
+				4CD5EA711F87610D005C0B33 /* DataResponseSerializer.html */,
+				4CD5EA721F87610D005C0B33 /* DefaultDataResponse.html */,
+				4CD5EA731F87610D005C0B33 /* DefaultDownloadResponse.html */,
+				4CD5EA741F87610D005C0B33 /* DownloadResponse.html */,
+				4CD5EA751F87610D005C0B33 /* DownloadResponseSerializer.html */,
+				4CD5EA761F87610D005C0B33 /* JSONEncoding.html */,
+				4CD5EA771F87610D005C0B33 /* PropertyListEncoding.html */,
+				4CD5EA781F87610D005C0B33 /* Timeline.html */,
+				4CD5EA791F87610D005C0B33 /* URLEncoding */,
+				4CD5EA7B1F87610D005C0B33 /* URLEncoding.html */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		4CD5EA791F87610D005C0B33 /* URLEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA7A1F87610D005C0B33 /* Destination.html */,
+			);
+			path = URLEncoding;
+			sourceTree = "<group>";
+		};
+		4CD5EA7F1F87610D005C0B33 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA801F87610D005C0B33 /* Alamofire 2.0 Migration Guide.md */,
+				4CD5EA811F87610D005C0B33 /* Alamofire 3.0 Migration Guide.md */,
+				4CD5EA821F87610D005C0B33 /* Alamofire 4.0 Migration Guide.md */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		4CD5EA981F87610D005C0B33 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5EA991F87610D005C0B33 /* AFError.swift */,
+				4CD5EA9A1F87610D005C0B33 /* Alamofire.h */,
+				4CD5EA9B1F87610D005C0B33 /* Alamofire.swift */,
+				4CD5EA9C1F87610D005C0B33 /* DispatchQueue+Alamofire.swift */,
+				4CD5EA9D1F87610D005C0B33 /* Info-tvOS.plist */,
+				4CD5EA9E1F87610D005C0B33 /* Info.plist */,
+				4CD5EA9F1F87610D005C0B33 /* MultipartFormData.swift */,
+				4CD5EAA01F87610D005C0B33 /* NetworkReachabilityManager.swift */,
+				4CD5EAA11F87610D005C0B33 /* Notifications.swift */,
+				4CD5EAA21F87610D005C0B33 /* ParameterEncoding.swift */,
+				4CD5EAA31F87610D005C0B33 /* Request.swift */,
+				4CD5EAA41F87610D005C0B33 /* Response.swift */,
+				4CD5EAA51F87610D005C0B33 /* ResponseSerialization.swift */,
+				4CD5EAA61F87610D005C0B33 /* Result.swift */,
+				4CD5EAA71F87610D005C0B33 /* ServerTrustPolicy.swift */,
+				4CD5EAA81F87610D005C0B33 /* SessionDelegate.swift */,
+				4CD5EAA91F87610D005C0B33 /* SessionManager.swift */,
+				4CD5EAAA1F87610D005C0B33 /* TaskDelegate.swift */,
+				4CD5EAAB1F87610D005C0B33 /* Timeline.swift */,
+				4CD5EAAC1F87610D005C0B33 /* Validation.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CD5E9FD1F875EBB005C0B33 /* webServiceGetDataWithAlamofireAndSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD5EA101F875EBB005C0B33 /* Build configuration list for PBXNativeTarget "webServiceGetDataWithAlamofireAndSession" */;
+			buildPhases = (
+				4CD5E9FA1F875EBB005C0B33 /* Sources */,
+				4CD5E9FB1F875EBB005C0B33 /* Frameworks */,
+				4CD5E9FC1F875EBB005C0B33 /* Resources */,
+				4CD5EBBF1F87613C005C0B33 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD5EBB91F87612A005C0B33 /* PBXTargetDependency */,
+				4CD5EBBE1F87613C005C0B33 /* PBXTargetDependency */,
+			);
+			name = webServiceGetDataWithAlamofireAndSession;
+			productName = webServiceGetDataWithAlamofireAndSession;
+			productReference = 4CD5E9FE1F875EBB005C0B33 /* webServiceGetDataWithAlamofireAndSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CD5E9F61F875EBB005C0B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = iflame;
+				TargetAttributes = {
+					4CD5E9FD1F875EBB005C0B33 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4CD5E9F91F875EBB005C0B33 /* Build configuration list for PBXProject "webServiceGetDataWithAlamofireAndSession" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CD5E9F51F875EBB005C0B33;
+			productRefGroup = 4CD5E9FF1F875EBB005C0B33 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4CD5EA1D1F87610C005C0B33 /* Products */;
+					ProjectRef = 4CD5EA1C1F87610C005C0B33 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4CD5E9FD1F875EBB005C0B33 /* webServiceGetDataWithAlamofireAndSession */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4CD5EBA81F87610D005C0B33 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4CD5EBA71F87610D005C0B33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CD5EBAA1F87610D005C0B33 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 4CD5EBA91F87610D005C0B33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CD5EBAC1F87610D005C0B33 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4CD5EBAB1F87610D005C0B33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CD5EBAE1F87610D005C0B33 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 4CD5EBAD1F87610D005C0B33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CD5EBB01F87610D005C0B33 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4CD5EBAF1F87610D005C0B33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CD5EBB21F87610D005C0B33 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 4CD5EBB11F87610D005C0B33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CD5EBB41F87610D005C0B33 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4CD5EBB31F87610D005C0B33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CD5E9FC1F875EBB005C0B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD5EB2B1F87610D005C0B33 /* jquery.min.js in Resources */,
+				4CD5EB031F87610D005C0B33 /* ValidationResult.html in Resources */,
+				4CD5EB1C1F87610D005C0B33 /* Name.html in Resources */,
+				4CD5EB371F87610D005C0B33 /* DataResponse.html in Resources */,
+				4CD5EB2A1F87610D005C0B33 /* jazzy.search.js in Resources */,
+				4CD5EB4E1F87610D005C0B33 /* Gemfile in Resources */,
+				4CD5EB011F87610D005C0B33 /* NetworkReachabilityStatus.html in Resources */,
+				4CD5EB251F87610D005C0B33 /* dash.png in Resources */,
+				4CD5EAEF1F87610D005C0B33 /* .gitignore in Resources */,
+				4CD5EB511F87610D005C0B33 /* LICENSE in Resources */,
+				4CD5EB2C1F87610D005C0B33 /* lunr.min.js in Resources */,
+				4CD5EB231F87610D005C0B33 /* Functions.html in Resources */,
+				4CD5EB381F87610D005C0B33 /* DataResponseSerializer.html in Resources */,
+				4CD5EB1A1F87610D005C0B33 /* Key.html in Resources */,
+				4CD5EB171F87610D005C0B33 /* Result.html in Resources */,
+				4CD5EB001F87610D005C0B33 /* ConnectionType.html in Resources */,
+				4CD5EB401F87610D005C0B33 /* Destination.html in Resources */,
+				4CD5EA0C1F875EBB005C0B33 /* LaunchScreen.storyboard in Resources */,
+				4CD5EB241F87610D005C0B33 /* carat.png in Resources */,
+				4CD5EB1F1F87610D005C0B33 /* URL.html in Resources */,
+				4CD5EB3B1F87610D005C0B33 /* DownloadResponse.html in Resources */,
+				4CD5EB3C1F87610D005C0B33 /* DownloadResponseSerializer.html in Resources */,
+				4CD5EAFB1F87610D005C0B33 /* badge.svg in Resources */,
+				4CD5EAF21F87610D005C0B33 /* .ruby-version in Resources */,
+				4CD5EB3D1F87610D005C0B33 /* JSONEncoding.html in Resources */,
+				4CD5EB3A1F87610D005C0B33 /* DefaultDownloadResponse.html in Resources */,
+				4CD5EB271F87610D005C0B33 /* spinner.gif in Resources */,
+				4CD5EB111F87610D005C0B33 /* MultipartEncodingFailureReason.html in Resources */,
+				4CD5EB591F87610D005C0B33 /* Info.plist in Resources */,
+				4CD5EB151F87610D005C0B33 /* AFError.html in Resources */,
+				4CD5EB101F87610D005C0B33 /* Alamofire.xml in Resources */,
+				4CD5EB2E1F87610D005C0B33 /* DataResponseSerializerProtocol.html in Resources */,
+				4CD5EAF41F87610D005C0B33 /* .travis.yml in Resources */,
+				4CD5EB0A1F87610D005C0B33 /* UploadRequest.html in Resources */,
+				4CD5EB441F87610D005C0B33 /* undocumented.json in Resources */,
+				4CD5EB311F87610D005C0B33 /* RequestAdapter.html in Resources */,
+				4CD5EAF51F87610D005C0B33 /* alamofire.png in Resources */,
+				4CD5EB411F87610D005C0B33 /* URLEncoding.html in Resources */,
+				4CD5EB071F87610D005C0B33 /* MultipartFormDataEncodingResult.html in Resources */,
+				4CD5EB121F87610D005C0B33 /* ParameterEncodingFailureReason.html in Resources */,
+				4CD5EB081F87610D005C0B33 /* SessionManager.html in Resources */,
+				4CD5EB0F1F87610D005C0B33 /* Alamofire.tgz in Resources */,
+				4CD5EB301F87610D005C0B33 /* ParameterEncoding.html in Resources */,
+				4CD5EB4F1F87610D005C0B33 /* Gemfile.lock in Resources */,
+				4CD5EB3E1F87610D005C0B33 /* PropertyListEncoding.html in Resources */,
+				4CD5EB221F87610D005C0B33 /* Extensions.html in Resources */,
+				4CD5EB1B1F87610D005C0B33 /* Task.html in Resources */,
+				4CD5EB281F87610D005C0B33 /* index.html in Resources */,
+				4CD5EB161F87610D005C0B33 /* HTTPMethod.html in Resources */,
+				4CD5EAFA1F87610D005C0B33 /* _config.yml in Resources */,
+				4CD5EB2D1F87610D005C0B33 /* typeahead.jquery.js in Resources */,
+				4CD5EB1E1F87610D005C0B33 /* String.html in Resources */,
+				4CD5EB431F87610D005C0B33 /* Typealiases.html in Resources */,
+				4CD5EB291F87610D005C0B33 /* jazzy.js in Resources */,
+				4CD5EB0B1F87610D005C0B33 /* Classes.html in Resources */,
+				4CD5EB261F87610D005C0B33 /* gh.png in Resources */,
+				4CD5EB581F87610D005C0B33 /* Info-tvOS.plist in Resources */,
+				4CD5EB181F87610D005C0B33 /* ServerTrustPolicy.html in Resources */,
+				4CD5EAF71F87610D005C0B33 /* Alamofire.xcworkspace in Resources */,
+				4CD5EB131F87610D005C0B33 /* ResponseSerializationFailureReason.html in Resources */,
+				4CD5EB1D1F87610D005C0B33 /* Notification.html in Resources */,
+				4CD5EB211F87610D005C0B33 /* URLRequest.html in Resources */,
+				4CD5EAFC1F87610D005C0B33 /* DataRequest.html in Resources */,
+				4CD5EB0E1F87610D005C0B33 /* Alamofire.docset in Resources */,
+				4CD5EB141F87610D005C0B33 /* ResponseValidationFailureReason.html in Resources */,
+				4CD5EB341F87610D005C0B33 /* URLRequestConvertible.html in Resources */,
+				4CD5EAFF1F87610D005C0B33 /* MultipartFormData.html in Resources */,
+				4CD5EB0C1F87610D005C0B33 /* highlight.css in Resources */,
+				4CD5EB041F87610D005C0B33 /* Request.html in Resources */,
+				4CD5EAF61F87610D005C0B33 /* Alamofire.podspec in Resources */,
+				4CD5EB351F87610D005C0B33 /* Protocols.html in Resources */,
+				4CD5EAF11F87610D005C0B33 /* .ruby-gemset in Resources */,
+				4CD5EAFD1F87610D005C0B33 /* DownloadOptions.html in Resources */,
+				4CD5EAF31F87610D005C0B33 /* .swift-version in Resources */,
+				4CD5EB201F87610D005C0B33 /* URLComponents.html in Resources */,
+				4CD5EA091F875EBB005C0B33 /* Assets.xcassets in Resources */,
+				4CD5EB321F87610D005C0B33 /* RequestRetrier.html in Resources */,
+				4CD5EB0D1F87610D005C0B33 /* jazzy.css in Resources */,
+				4CD5EB3F1F87610D005C0B33 /* Timeline.html in Resources */,
+				4CD5EB2F1F87610D005C0B33 /* DownloadResponseSerializerProtocol.html in Resources */,
+				4CD5EB421F87610D005C0B33 /* Structs.html in Resources */,
+				4CD5EB021F87610D005C0B33 /* NetworkReachabilityManager.html in Resources */,
+				4CD5EB191F87610D005C0B33 /* Enums.html in Resources */,
+				4CD5EB091F87610D005C0B33 /* TaskDelegate.html in Resources */,
+				4CD5EB331F87610D005C0B33 /* URLConvertible.html in Resources */,
+				4CD5EB391F87610D005C0B33 /* DefaultDataResponse.html in Resources */,
+				4CD5EB051F87610D005C0B33 /* ServerTrustPolicyManager.html in Resources */,
+				4CD5EA071F875EBB005C0B33 /* Main.storyboard in Resources */,
+				4CD5EAFE1F87610D005C0B33 /* DownloadRequest.html in Resources */,
+				4CD5EB061F87610D005C0B33 /* SessionDelegate.html in Resources */,
+				4CD5EB361F87610D005C0B33 /* search.json in Resources */,
+				4CD5EAF01F87610D005C0B33 /* .jazzy.yaml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CD5E9FA1F875EBB005C0B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD5EB5D1F87610D005C0B33 /* ParameterEncoding.swift in Sources */,
+				4CD5EB5C1F87610D005C0B33 /* Notifications.swift in Sources */,
+				4CD5EB631F87610D005C0B33 /* SessionDelegate.swift in Sources */,
+				4CD5EB551F87610D005C0B33 /* AFError.swift in Sources */,
+				4CD5EB641F87610D005C0B33 /* SessionManager.swift in Sources */,
+				4CD5EB621F87610D005C0B33 /* ServerTrustPolicy.swift in Sources */,
+				4CD5EB501F87610D005C0B33 /* ISSUE_TEMPLATE.md in Sources */,
+				4CD5EB611F87610D005C0B33 /* Result.swift in Sources */,
+				4CD5EB5A1F87610D005C0B33 /* MultipartFormData.swift in Sources */,
+				4CD5EA041F875EBB005C0B33 /* ViewController.swift in Sources */,
+				4CD5EAF81F87610D005C0B33 /* CHANGELOG.md in Sources */,
+				4CD5EB671F87610D005C0B33 /* Validation.swift in Sources */,
+				4CD5EAF91F87610D005C0B33 /* CONTRIBUTING.md in Sources */,
+				4CD5EB471F87610D005C0B33 /* Alamofire 4.0 Migration Guide.md in Sources */,
+				4CD5EB561F87610D005C0B33 /* Alamofire.swift in Sources */,
+				4CD5EB661F87610D005C0B33 /* Timeline.swift in Sources */,
+				4CD5EA021F875EBB005C0B33 /* AppDelegate.swift in Sources */,
+				4CD5EBC11F8761BF005C0B33 /* Mycell.swift in Sources */,
+				4CD5EB5E1F87610D005C0B33 /* Request.swift in Sources */,
+				4CD5EB541F87610D005C0B33 /* README.md in Sources */,
+				4CD5EB461F87610D005C0B33 /* Alamofire 3.0 Migration Guide.md in Sources */,
+				4CD5EB651F87610D005C0B33 /* TaskDelegate.swift in Sources */,
+				4CD5EB571F87610D005C0B33 /* DispatchQueue+Alamofire.swift in Sources */,
+				4CD5EB601F87610D005C0B33 /* ResponseSerialization.swift in Sources */,
+				4CD5EB531F87610D005C0B33 /* PULL_REQUEST_TEMPLATE.md in Sources */,
+				4CD5EB5F1F87610D005C0B33 /* Response.swift in Sources */,
+				4CD5EB5B1F87610D005C0B33 /* NetworkReachabilityManager.swift in Sources */,
+				4CD5EB451F87610D005C0B33 /* Alamofire 2.0 Migration Guide.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CD5EBB91F87612A005C0B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 4CD5EBB81F87612A005C0B33 /* PBXContainerItemProxy */;
+		};
+		4CD5EBBE1F87613C005C0B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 4CD5EBBD1F87613C005C0B33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CD5EA051F875EBB005C0B33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD5EA061F875EBB005C0B33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CD5EA0A1F875EBB005C0B33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD5EA0B1F875EBB005C0B33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CD5EA0E1F875EBB005C0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CD5EA0F1F875EBB005C0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CD5EA111F875EBB005C0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = webServiceGetDataWithAlamofireAndSession/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iflame.webServiceGetDataWithAlamofireAndSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4CD5EA121F875EBB005C0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = webServiceGetDataWithAlamofireAndSession/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iflame.webServiceGetDataWithAlamofireAndSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CD5E9F91F875EBB005C0B33 /* Build configuration list for PBXProject "webServiceGetDataWithAlamofireAndSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD5EA0E1F875EBB005C0B33 /* Debug */,
+				4CD5EA0F1F875EBB005C0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD5EA101F875EBB005C0B33 /* Build configuration list for PBXNativeTarget "webServiceGetDataWithAlamofireAndSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD5EA111F875EBB005C0B33 /* Debug */,
+				4CD5EA121F875EBB005C0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CD5E9F61F875EBB005C0B33 /* Project object */;
+}
