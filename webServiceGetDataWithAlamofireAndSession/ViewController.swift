@@ -14,6 +14,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     @IBOutlet weak var TableView: UITableView!
     
     var arr = [[String:Any]]()
+    
+    // Session
     let urlSession = URLSession(configuration: .default)
     var dataTask = URLSessionDataTask()
     
@@ -22,10 +24,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         
         // Get Data With Alamofire
-//        callGetMethodAlamofire()
+        callGetMethodAlamofire()
         
         // Get Data With Session
-        callGetMethodSession()
+//        callGetMethodSession()
     }
     
     
@@ -57,6 +59,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     // MARK : - Get Data With Alamofire
     func callGetMethodAlamofire()
     {
+        // Start Indicator
         let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
         indicator.center = view.center
         indicator.startAnimating()
@@ -84,6 +87,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 break
             }
             self.TableView.reloadData()
+            
+            // Stop Indicator
             indicator.stopAnimating()
             indicator.removeFromSuperview()
             
@@ -91,6 +96,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         }
     }
     
+    
+    // MARK : - Get Data With Session
     func callGetMethodSession()
     {
         let url = NSURL(string: "https://api.androidhive.info/contacts/")
@@ -99,7 +106,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         dataTask = URLSession.shared.dataTask(with: urlRequest as URLRequest)
         {
-            data,session,error in
+            data,response,error in
             if let error = error
             {
                 print(error)
@@ -124,6 +131,5 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             }
         }
         dataTask.resume()
-        
     }
 }
