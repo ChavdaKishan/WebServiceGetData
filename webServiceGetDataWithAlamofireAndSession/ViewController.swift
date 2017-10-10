@@ -24,10 +24,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         
         // Get Data With Alamofire
-        callGetMethodAlamofire()
+//        callGetMethodAlamofire()
         
         // Get Data With Session
-//        callGetMethodSession()
+        callGetMethodSession()
     }
     
     
@@ -75,9 +75,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                     print(obj)
                     if let json = response.result.value as? [String:Any]
                     {
+                        print(json)
                         if let jsonData = json["contacts"] as? [Any]
                         {
+                            print(jsonData)
                             self.arr = jsonData as! [[String:Any]]
+                            print(self.arr)
                         }
                     }
                 break
@@ -100,6 +103,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     // MARK : - Get Data With Session
     func callGetMethodSession()
     {
+        // Start Indicator
+        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        indicator.center = view.center
+        indicator.startAnimating()
+        view.addSubview(indicator)
+        
+        UIApplication.shared.beginIgnoringInteractionEvents()
+        
         let url = NSURL(string: "https://api.androidhive.info/contacts/")
         let urlRequest = NSMutableURLRequest(url: url! as URL)
         urlRequest.httpMethod = "GET"
@@ -118,9 +129,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                     let jsonData = try JSONSerialization.jsonObject(with: data, options: [])
                     if let json = jsonData as? [String:Any]
                     {
+                        print(json)
                         if let arrData = json["contacts"] as? [Any]
                         {
-                            print(arrData)
+                            self.arr = arrData as! [[String : Any]]
+                            print(self.arr)
                         }
                     }
                 }
@@ -129,6 +142,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                     
                 }
             }
+            self.TableView.reloadData()
+            
+            // Stop Indicator
+            indicator.stopAnimating()
+            indicator.removeFromSuperview()
+            
+            UIApplication.shared.endIgnoringInteractionEvents()
         }
         dataTask.resume()
     }
